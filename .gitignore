@@ -1,0 +1,4 @@
+screenshots
+.git
+terraform.tfstate.backup
+*.pem
