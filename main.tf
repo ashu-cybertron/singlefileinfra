@@ -1,7 +1,8 @@
 # Configure the AWS Provider
 provider "aws" {
   region = "ap-south-1"
-  profile = "default"
+  access_key = "$(var.my-access-key)"
+  secret_key = "$(var.my-secret-key)"
 }
 
 #vpc
