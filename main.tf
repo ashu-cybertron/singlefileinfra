@@ -1,7 +1,7 @@
 # Configure the AWS Provider
 provider "aws" {
   region = "ap-south-1"
-  shared_credentials_file = "C:\Users\Administrator\.aws\credentials"
+  shared_credentials_file = "C:/Users/Administrator/.aws/credentials"
   profile = "default"
 }
 
